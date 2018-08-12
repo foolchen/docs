@@ -1,4 +1,4 @@
-#  BottomNavigationView改造
+#  BottomNavigationView扩展
 
 最近开展新的项目，首当其中的问题就是首页导航。
 
