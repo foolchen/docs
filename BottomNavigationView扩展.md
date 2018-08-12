@@ -7,7 +7,7 @@
 1. 使用png格式的图标时无法显示原本的图案；
 2. 默认有位移动画，且无法通过配置进行取消。
 
-![默认效果](images/默认效果.gif)
+![默认效果](images/default.gif)
 
 而这次不想再次进行一次自定义，决定采用官方的`BottomNavigationView`。那么就要解决上面提到的两个问题。
 
@@ -152,7 +152,7 @@ private fun Field.setBooleanValue(obj: Any, value: Boolean) {
 
 修改完毕后效果如下：
 
-![禁用位移动画](images/禁用位移动画.gif)
+![禁用位移动画](images/disable_shift_mode.gif)
 
 
 
@@ -264,7 +264,7 @@ private fun Field.setIntValue(obj: Any, value: Int) {
 
 效果如下：
 
-![统一条目](images/统一条目.gif)
+![统一条目](images/unified_items.gif)
 
 ## 显示图标原本图案
 
@@ -279,5 +279,5 @@ fun BottomNavigationView.disableIconTint() {
 
 最终效果如下：
 
-![最终效果](images/最终效果.gif)
+![最终效果](images/final.gif)
 
